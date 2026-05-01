@@ -1,19 +1,7 @@
-# PolyForm Noncommercial License 1.0.0
+Copyright 2026 Pekka Sihvonen
 
-## Acceptance
-In order to get any license under these terms, you must agree to them as a set of conditions and terms. If you do not agree to these terms, you cannot enjoy the license these terms grant.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## License
-The licensor grants you a personal, worldwide, royalty-free, non-assignable, non-exclusive, and non-sublicensable license to exercise every intellectual property right in the software that the licensor has to grant, but only for noncommercial purposes.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## Noncommercial Purposes
-Any use of the software which is not for commercial purposes.
-
-## Commercial Purposes
-Any use of the software in any manner that is primarily intended for or directed toward commercial advantage or monetary compensation.
-
-## Attribution
-You must include a copy of these terms, or a link to them, with any copy of the software you distribute.
-
-## Disclaimer
-As far as the law allows, the software comes as is, without any warranty or condition, and the licensor will not be liable to you for any damages arising out of these terms or the use or care of the software, on any legal theory.
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
