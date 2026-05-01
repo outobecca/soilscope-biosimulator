@@ -2,7 +2,9 @@
 
 **Project Status: Phase 11 Completed - Digital Twin Polish & Immersive Stability**
 
-SoilScope on tieteellisesti tarkka maaperä-kasvi-ilmakehä-jatkumon (SPAC) simulaattori, joka yhdistää pelillistetyn oppimisen ja laskennallisen ekofysiologian.
+SoilScope pyrkii olemaan tieteellisesti tarkka maaperä-kasvi-ilmakehä-jatkumon (SPAC) simulaattori, joka yhdistää pelillistetyn oppimisen ja laskennallisen ekofysiologian. Se toimii maaperän "digitaalisena kaksosena", joka konkretisoi mikroskooppiset ja pitkäkestoiset biogeokemialliset prosessit välittömästi havaittavaan ja interaktiiviseen muotoon.
+
+Projekti on rakennettu puhtaasti Dart-kielellä hyödyntäen Flutteria ja Flame Enginea. Se on suunniteltu erityisesti hortonomikoulutuksen ja maataloustieteen pedagogiseksi työkaluksi, "tehden näkymättömästä näkyvää".
 
 ---
 
@@ -69,37 +71,43 @@ SoilScope on tieteellisesti tarkka maaperä-kasvi-ilmakehä-jatkumon (SPAC) simu
 - **Live-evaluointi** simulaatiodatalla
 - **UX-parannukset**: Työkaluvihjeet (Tooltips) ja reaaliaikainen yksiköiden muotoilu solmuille.
 
-### 🔬 Validointi & Diagnostiikka
-- **Tilastolliset metriikat**: RMSE, NSE, R², MAE
-- **Kytkentämatriisi** järjestelmädiagnostiikkaan
-- **Science Validation Tab**: Reaaliaikainen tilastollisten mittareiden (RMSE, NSE, R²) seuranta käyttöliittymässä.
-- **50 yksikkötestiä** biofysiikan solvereiden varmistamiseen
+## Tekoälyavusteinen kehitys (Agentic Coding)
+
+Tämä koodikanta on toiminut tutkimuskohteena innovatiiviselle Agentic Coding -metodologialle. Sovelluksen arkkitehtuuri, matemaattisten mallien integraatio ja Flame-visualisoinnit on kehitetty vahvassa vuorovaikutuksessa generatiivisen tekoälyn (erityisesti Gemini Pro ja Flash -mallien) kanssa. Projektissa on sovellettu tiukkaa system prompt -maadoitusta hallusinaatioiden estämiseksi ja tieteellisen tarkkuuden takaamiseksi. Lisätietoja metodologiasta löytyy hankkeen akateemisista julkaisuista.
 
 ---
 
-## 🚀 Käynnistys
+## Asennus
 
-```bash
-# Asenna riippuvuudet
+Kloonaa arkisto ja asenna riippuvuudet:
+
+git clone [https://github.com/KAYTTAJANIMI/soilscope.git](https://github.com/KAYTTAJANIMI/soilscope.git)
+cd soilscope
 flutter pub get
 
-# Generoi Freezed-koodi
+Koodikanta hyödyntää freezed- ja json_serializable-kirjastoja datamalleissa. Generoi koodi ennen ensimmäistä ajoa:
+
 dart run build_runner build --delete-conflicting-outputs
 
-# Käynnistä sovellus
+Käynnistä sovellus (suositellaan Web- tai työpöytäympäristöä kehitykseen):
+
+flutter run -d chrome
+
+## Testaus
+
+Projekti sisältää kattavan testipaketin (yli 50 yksikkötestiä) biofysiikan moottoreille:
+
+flutter test
+
+## 🚀 Käynnistys
+
 flutter run
-```
 
 ---
 
 ## 📄 Lisenssi
 
-Tämä projekti on lisensoitu **PolyForm Noncommercial License 1.0.0** -lisenssillä.
-
-- **Sallittu:** Lähdekoodin tarkastelu, yksityinen käyttö, akateeminen käyttö ja tutkimuskäyttö.
-- **Kielletty:** Kaupallinen hyödyntäminen ilman erillistä sopimusta tekijän kanssa.
-
-Katso täydet ehdot tiedostosta [LICENSE.md](LICENSE.md).
+Tämä projekti on lisensoitu MIT-lisenssillä. Katso tarkemmat tiedot [LICENSE.md](LICENSE.md) -tiedostosta.
 
 ### Käytetyt kirjastot ja niiden lisenssit
 
@@ -116,5 +124,3 @@ Katso täydet ehdot tiedostosta [LICENSE.md](LICENSE.md).
 | **Shared Preferences** | Paikallinen asetusten tallennus | BSD-3-Clause |
 | **Flutter Secure Storage** | Suojattu avainten tallennus | BSD-3-Clause |
 | **JSON Annotation** | JSON-serialisointi | BSD-3-Clause |
-
-
