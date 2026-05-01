@@ -1,4 +1,4 @@
-# SoilScope (MFCKT) - Soil-Plant-Atmosphere Simulator
+# SoilScope - Soil-Plant-Atmosphere Simulator
 
 **Project Status: Phase 11 Completed - Digital Twin Polish & Immersive Stability**
 
