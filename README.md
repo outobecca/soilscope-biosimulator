@@ -81,7 +81,7 @@ Tämä koodikanta on toiminut tutkimuskohteena innovatiiviselle Agentic Coding -
 
 Kloonaa arkisto ja asenna riippuvuudet:
 
-git clone [https://github.com/KAYTTAJANIMI/soilscope.git](https://github.com/KAYTTAJANIMI/soilscope.git)
+git clone [https://github.com/outobecca/soilscope-biosimulator.git](https://github.com/outobecca/soilscope-biosimulator.git)
 cd soilscope
 flutter pub get
 
