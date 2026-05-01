@@ -41,18 +41,16 @@ SoilScope on tieteellisesti tarkka maaperä-kasvi-ilmakehä-jatkumon (SPAC) simu
 - **Sähköstaattinen fysiikka**: Coulombin laki ohjaa ionien hakeutumista varautuneille pinnoille
 
 ### 🎮 Interaktiivinen Hallintapaneeli & Digital Twin
-- **Eristetty HUD-kerros (Viewport)**: Kamerasta riippumaton kiinteä käyttöliittymäkerros. Yhdistetyt `LayerHUDPanel` -blokit oikeassa reunassa ja `SoilTextureTriangle` -säätimet vasemmassa reunassa dynaamisella pystysuuntaisella asettelulla.
-- **Nanovision (Mikroskooppi)**: Palautettu mikroskooppiominaisuus, joka mahdollistaa yksityiskohtaisen poikkileikkausnäkymän juurista, lehdistä ja mikrobeista.
+- **Eristetty HUD-kerros (Viewport)**: Kamerasta riippumaton kiinteä käyttöliittymäkerros. 
+- **Nanovision (Mikroskooppi)**: Mikroskooppiominaisuus, joka mahdollistaa yksityiskohtaisen poikkileikkausnäkymän juurista, lehdistä ja mikrobeista.
 - **3-Kerroksinen UI**: visualisointi keskittyy biologisesti aktiiviseen pintamaahan (Top 50cm)
 - **Atmosfäärin ohjaus**: Kaasunvaihdon ($CO_2$, $H_2O$) dynaamiset animaatiot synkronoitu kunkin kasvin lehvästön sijaintiin.
 - **Tieteelliset kaaviot**: Mollier-diagrammi ja PAR-näkymä Control Panelissa tarkempaan atmosfäärin analyysiin.
-- **Puhdas visuaalisuus**: teksti on poistettu animaatiosta ja korvattu tieteellisillä symboleilla ja CPK-standardeilla
 - **Isolate-pohjainen fysiikka (30 FPS)**: tuhansien hiukkasten dynaaminen laskenta on optimoitu tasaiseen 30 FPS tahtiin.
 - **LOD (Level of Detail)**: hiukkasrenderöinti skaalautuu zoom-tason mukaan suorituskyvyn varmistamiseksi
-- **Full-Screen Immersive Digital Twin**: Simulaatio täyttää nyt koko ruudun dynaamisesti säätyvällä horisontilla ja ilmakehällä, poistaen aiemman "laatikkomaisen" rajoitteen.
-- **Flutter Overlay Inspector**: Korkean fideliteetin bioväylätietojen tarkastelu on toteutettu dynaamisena Flutter-kerroksena, joka mahdollistaa lasimaisen (glassmorphism) käyttöliittymän ja paremman luettavuuden.
+- **Full-Screen Immersive Digital Twin**: Simulaatio täyttää koko ruudun dynaamisesti säätyvällä horisontilla ja ilmakehällä.
+- **Flutter Overlay Inspector**: Korkean fideliteetin bioväylätietojen tarkastelu on toteutettu dynaamisena Flutter-kerroksena.
 - **SPAC-kausaalisuusnuolet**: Kaasunvaihdon ja veden virtauksen animaatiot sisältävät nyt suuntanuolet ja realiaikaisen voimakkuussäädön, jotka visualisoivat biovirtauksia.
-- **Natiivit Pikatoiminnot (Quick Actions)**: Korvattu aiempi Flame-pohjainen toimintapalkki dynaamisilla ja responsiivisilla Flutter-widgeteillä, jotka sisältävät täydelliset työkaluvihjeet (tooltips) ja paremman käytettävyyden.
 - **Typenkierron havainnointitila**: Mahdollistaa N-yhdisteiden ($NH_4^+$, $NO_3^-$) korostamisen ja muiden himmentämisen `FlutterQuickActions`-paneelista.
 - **Tilan tallennus & Toisto**: Integroitu `SharedPreferences`-pohjainen tilan tallennus ja aikajanan toistonäppäimet.
 - **Dynaaminen Skenaarioeditori (Scenario Builder)**: Luo omia skenaarioita säätämällä maalajeja, alkukosteutta ja viljelysuunnitelmia (lannoitus, kastelu, muokkaus).
